@@ -1,0 +1,88 @@
+header{
+    padding: 20px;
+
+}
+header h1{
+    text-align: center;
+
+}
+nav ul{
+    margin-left: 33%;
+
+}
+nav ul a{
+    text-decoration: none;
+    margin-left: 5%;
+}
+nav ul a:hover{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+div{
+    background-color: aliceblue;
+    width: 800px;
+    height: 450px;
+    margin-left: 10%;
+}
+div h5{
+  margin-left: 6%; 
+  padding: 10px;   
+}
+ .div1 .div2{
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 0 10px 2px black;
+}
+.div1 .div2 td img{
+    width: 200px;
+}
+.div1 .div2 td label{
+    background-color: gray;
+}
+.div3{
+    background-color: aliceblue;
+    width: 350px;
+    height: 400px;
+    margin-left: 65%;
+    margin-top: -30%;
+}
+.div5{
+    background-color: transparent;
+}
+
+
+
+
+.div1{
+    overflow: hidden;
+}
+.div1 .class img{
+    justify-content: center;
+    width: 500%%;
+    align-items: center;
+    position: relative;
+}
+.class{
+    display: flex;
+    width: 100%;
+    
+}
+.div1 .class .div2{
+    width: 100%;
+    margin-left: 90%;
+    display: flex;
+}
+.div1 .class .div2 button{
+    width: 120px;
+    height: 60px;
+}
+.div1 .class .div2 button:hover{
+    background-color: chartreuse;
+}

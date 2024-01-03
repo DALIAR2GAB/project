@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+*{
+    margin: 0%;
+    padding: 0px;
+}
+header{
+    background-color: lightblue;
+    text-align: center;
+}
+nav {
+    margin-left: 35%;
+}
+nav ul a{
+    justify-content:space-between;
+    margin-left: 5%;
+   text-decoration: none;
+}
+nav ul a:hover{
+   background-color: aliceblue;
+   color: black;
+   padding: 6px;
+   border-radius: 20%;
+  height:70px;
+}
+.div1{
+    overflow: hidden;
+}
+.div1 .class img{
+    justify-content: center;
+    width: 500%%;
+    align-items: center;
+    position: relative;
+}
+.class{
+    display: flex;
+    width: 100%;
+    
+}
+.div1 .class .div2{
+    width: 100%;
+    margin-left: 90%;
+    display: flex;
+}
+.div1 .class .div2 button{
+    width: 120px;
+    height: 60px;
+}
+.div1 .class .div2 button:hover{
+    background-color: chartreuse;
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height:300px;
+    color: white;
+    margin-top: 10%;
+}
+.footer table tr{
+   text-align: center;
+}
+
+

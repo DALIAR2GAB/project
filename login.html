@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body background="13609_blue-sky-with-clouds-backgrounds-church-at-prison_7000x5500_h.jpg">
+   <a href="home.html" style="padding: 20px;">back home</a>
+    <form class="formm">
+        <h1>SIGN IN</h1>
+        <br><br><br>
+        <label>USERNAME:</label>
+        <input type="text" placeholder="username" id="user">
+        <br><br>
+        <br><br><br>
+        <label>PASSWORD:</label>
+        <input type="password" placeholder="password" id="pass">
+        <br><br>
+        <input type="checkbox" class="check">
+        <a class="aa"> 
+            <h6 class="h6">Remember me</h6>
+            <br>
+        </a>
+        <a href="£" class="link">Forget password?</a>
+        <a><button type="button"  onclick="login()" >LOGIN</button></a>
+     </form>
+
+        <form class="form2" >
+            <h1>SIGN UP</h1>
+            <br><br><br>
+            <label>USERNAME:</label>
+            <input type="text" placeholder="username" id="user1">
+            <br><br>
+            <label>PASSWORD:</label>
+            <input type="password" placeholder="password" id="pass1">
+            <br><br>
+            <label>Confirmpassword:</label>
+            <input type="password" placeholder="confirmpassword" id="confirm1">
+            <br><br>
+            <label>AGE:</label>
+            <input type="number" placeholder="age" id="age" min="10" max="50" required>
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="radio" class="radio">
+            <label>male</label>
+            <input type="radio" name="radio" class="radio">
+            <label>Female</label>
+            <br><br>
+            <label>phonenumber:</label>
+             <input type="text" placeholder="phone" id="phone">
+             <br><br>
+             <button type="button" onclick="signup()">Signup</button>
+         </form>
+      
+
+         <form class="form3" >
+            <h1>FORGET PASSWORD</h1>
+            <br><br><br>
+            <label>USERNAME:</label>
+            <input type="text" placeholder="username" id="user1">
+            <br><br>
+            <label>PASSWORD:</label>
+            <input type="password" placeholder="password" id="pass1">
+            <br><br>
+             <button type="button"  onclick="pass()">SAVE</button>
+         </form>
+         <script src="login.js"></script>
+</body>
+</html>

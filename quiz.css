@@ -1,0 +1,14 @@
+button{
+    width: 110px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    font-family: system-ui;
+    font-size: larger;
+}
+button:hover{
+    background-color:chartreuse;
+    color: black;
+}
